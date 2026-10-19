@@ -1,0 +1,10 @@
+digraph "test2" {
+  "entry"
+  "entry" -> "p1t"
+  "entry" -> "elsebranch"
+  "p1t"
+  "p1t" -> "truebranch"
+  "p1t" -> "elsebranch"
+  "truebranch"
+  "elsebranch"
+}

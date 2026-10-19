@@ -1,0 +1,9 @@
+digraph "CFG for 'max2' function" {
+	label="CFG for 'max2' function";
+
+	Node0x55e3c93603a0 [shape=record,color="#b70d28ff", style=filled, fillcolor="#b70d2870" fontname="Courier",label="{entry|{<s0>T|<s1>F}}"];
+	Node0x55e3c93603a0:s0 -> Node0x55e3c9360400;
+	Node0x55e3c93603a0:s1 -> Node0x55e3c9360500;
+	Node0x55e3c9360400 [shape=record,color="#3d50c3ff", style=filled, fillcolor="#be242e70" fontname="Courier",label="{ares}"];
+	Node0x55e3c9360500 [shape=record,color="#3d50c3ff", style=filled, fillcolor="#be242e70" fontname="Courier",label="{bres}"];
+}

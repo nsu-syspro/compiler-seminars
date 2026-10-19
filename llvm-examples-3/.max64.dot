@@ -1,0 +1,12 @@
+digraph "CFG for 'max64' function" {
+	label="CFG for 'max64' function";
+
+	Node0x55e3c93604a0 [shape=record,color="#b70d28ff", style=filled, fillcolor="#b70d2870" fontname="Courier",label="{entry|{<s0>T|<s1>F}}"];
+	Node0x55e3c93604a0:s0 -> Node0x55e3c9360b00;
+	Node0x55e3c93604a0:s1 -> Node0x55e3c9360c00;
+	Node0x55e3c9360b00 [shape=record,color="#3d50c3ff", style=filled, fillcolor="#be242e70" fontname="Courier",label="{ares}"];
+	Node0x55e3c9360c00 [shape=record,color="#3d50c3ff", style=filled, fillcolor="#be242e70" fontname="Courier",label="{bres}"];
+	Node0x55e3c9360c80 [shape=record,color="#3d50c3ff", style=filled, fillcolor="#3d50c370" fontname="Courier",label="{entry2|{<s0>T|<s1>F}}"];
+	Node0x55e3c9360c80:s0 -> Node0x55e3c9360b00;
+	Node0x55e3c9360c80:s1 -> Node0x55e3c9360c00;
+}

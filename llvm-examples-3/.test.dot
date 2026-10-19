@@ -1,0 +1,5 @@
+digraph "CFG for 'test' function" {
+	label="CFG for 'test' function";
+
+	Node0x55e3c935dad0 [shape=record,color="#b70d28ff", style=filled, fillcolor="#b70d2870" fontname="Courier",label="{entry}"];
+}

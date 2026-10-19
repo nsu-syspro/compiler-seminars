@@ -1,0 +1,5 @@
+digraph "CFG for 'p2' function" {
+	label="CFG for 'p2' function";
+
+	Node0x55e3c935ebd0 [shape=record,color="#b70d28ff", style=filled, fillcolor="#b70d2870" fontname="Courier",label="{%0}"];
+}
